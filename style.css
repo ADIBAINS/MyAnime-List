@@ -31,6 +31,7 @@ header{
     z-index: 1000;
     position: sticky;
     top: 0;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.16);
 }
 .navbar{
     position: relative;
@@ -41,7 +42,14 @@ header{
     align-content: center;
     height: 80px;
     width: 100%;
-    background-color: rgba(217, 217, 217, 1);
+    background:linear-gradient(
+        243.18deg,
+        rgba(75, 49, 160, 1) 0%,
+        rgba(52, 67, 162, 1) 33.33333432674408%,
+        rgba(67, 29, 155, 1) 66.66666865348816%,
+        rgba(74, 10, 151, 1) 100%
+      )
+      
 }
 
 .navopt{
@@ -64,9 +72,9 @@ header{
     display: inline-block;
     position: absolute;
     left: 104px;
-    color: black;
-    font-family:"Playfair Display", serif;
-    font-size: 48px;
+    color: rgba(255, 255, 255, 0.92);
+    font-family:"Dela Gothic One", serif;
+    font-size: 40px;
     font-weight:900 ;
     letter-spacing: 0.16em;
     text-transform: uppercase;
@@ -74,7 +82,7 @@ header{
 
 .navopt a{
     opacity: 0.6;
-    color: black;
+    color: #C2C2C2;
     font-family: "Newsreader", serif;
     font-size: 16px;
     font-weight: 600;
@@ -87,13 +95,12 @@ header{
 }
 
 .home{
-    background: linear-gradient(
-        -82.07deg,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(51, 51, 51, 1) 5.228535830974579%,
-        rgba(102, 102, 102, 1) 13.905902206897736%,
-        rgba(102, 102, 102, 1) 57.007867097854614%,
-        rgba(77, 77, 77, 1) 100%
+    background:   linear-gradient(
+        243.18deg,
+        rgba(75, 49, 160, 1) 0%,
+        rgba(52, 67, 162, 1) 33.33333432674408%,
+        rgba(67, 29, 155, 1) 66.66666865348816%,
+        rgba(74, 10, 151, 1) 100%
       );
       height: 100vh;
       position: relative;
@@ -112,11 +119,12 @@ header{
     align-items: center;
 } */
 .hometitle{
+    color: #D7CBCB;
     position: absolute;
-    left: 100px;
-    top: 110px;
+    left: 42px;
+    top: 200px;
     font-family:"Playfair Display", serif;
-    font-size: 68px;
+    font-size: 80px;
     font-weight:900 ;
     letter-spacing: 0.16em;
     text-transform: uppercase;
@@ -125,19 +133,19 @@ header{
 
 
 .homesubtitle{
-    color: rgb(255, 255, 255);
-    height: 100px;
-    width:550px;
+    height: 98px;
+    width:548px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     position: absolute;
     top: 330px;
-    left: 44px;
+    left: 45px;
     font-family: "Montserrat", serif;
-    font-size: 16px;
+    font-size: 24px;
     letter-spacing: 0.16em;
-    font-weight: 300;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 
@@ -145,14 +153,18 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(51, 51, 51, 1);
+    background: linear-gradient(
+    89.43deg,
+    rgba(67, 42, 137, 1) 6.399963051080704%,
+    rgba(76, 31, 115, 1) 89.89996314048767%
+  );
     border-radius: 50px;
     width: 200px;
     height: 60px;
     position: absolute;
-    top: 412px;
-    left: 208px;
-    
+    top: 480px;
+    left: 203px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.44);
 
 }
 
@@ -168,7 +180,17 @@ header{
 
 .homebtn span{
     font-family: "Montserrat", serif;
-    color: white;
+    background: var(
+        --text,
+        linear-gradient(
+          94.34deg,
+          rgba(255, 255, 255, 1) 40.09431302547455%,
+          rgba(153, 153, 153, 1) 75.75986385345459%
+        )
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 600;
@@ -184,155 +206,96 @@ header{
     height: 540px;
 }
 
-
-
-
-#mainhome{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: rgba(92, 89, 89, 0.951);
-}
-.block{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 500px;
-    width: 300px;
-    border: 0.8px solid rgba(62, 53, 53, 0.875);
-    border-bottom-style:groove ;
-    border-left-style:groove ;
-    border-radius: 28px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin: 12px;
-    transition-duration:0.5s ;
-    transition-property: linear;
-    transition-delay: 0.1s;
-    background: linear-gradient(
-    -50.74deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(75, 75, 75, 1) 11.458183825016022%,
-    rgba(132, 132, 132, 1) 27.64645516872406%,
-    rgba(135, 135, 135, 1) 35.264116525650024%,
-    rgba(137, 137, 137, 1) 41.22733175754547%,
-    rgba(149, 149, 149, 1) 55.27490973472595%,
-    rgba(25, 25, 25, 1) 65.12266993522644%,
-    rgba(153, 153, 153, 1) 100%
-  );
-    border-image-repeat: initial;
-    font-family: "Montserrat", serif;
-    font-size: 14px;
-    letter-spacing: 0.12em;
-    font-weight: 400;
-}
-
-.block:hover{
-    box-shadow: 2px 2px 4px rgba(41, 38, 38, 0.63);
-    transform: scale(1.015);
-}
-.block a{
-    text-decoration: none;
-}
-.block button{
-    text-decoration: none;
-    border-radius: 70px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    background-color:rgba(153, 153, 153, 0.237);
-    color: rgba(79, 26, 129, 0.959);
-
-
-}
-#frieren img{
-    height: 275px;
-    width: 195px;
-}
-
-#mainhome .block img{
-    height: 275px;
-    width: 195px ;
-    border-radius:12px ;
-}
-.block{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-between;
-}
-
-.heading{
-    color: black;
-    z-index: 500;
+.mainhome{
     width: 100%;
-    height: min-content;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-family:"Playfair Display", serif;
-    font-size: 68px;
-    font-weight:900 ;
-    letter-spacing: 0.16em;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(
+        243.18deg,
+        rgba(75, 49, 160, 1) 0%,
+        rgba(52, 67, 162, 1) 33.33333432674408%,
+        rgba(67, 29, 155, 1) 66.66666865348816%,
+        rgba(74, 10, 151, 1) 100%
+      );
+}
+.heading{
+    font-family:"Dela Gothic One", serif;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 0.96);
     text-transform: uppercase;
+    position:absolute;
+    top: 120px;
+    left: 540px;
+}
+
+
+.cards{
+    width: 256px;
+    height: 368px;
+    background: linear-gradient(
+        151.58deg,
+        rgba(67, 42, 137, 1) 0%,
+        rgba(76, 31, 115, 1) 28.251683712005615%
+      );
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      border-radius: 28px;
+
+
+}
+
+.cardimg img{
+  border-radius: 20px;
+  width: 162.29px;
+  height: 225.22px;
+  /* filter: blur(4px); */
+  object-fit: cover;
+  aspect-ratio: 162.29/225.22;
+
+}
+
+.blktitle{
+    font-family:"Dela Gothic One", serif;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.84);
+    text-transform: uppercase;  
+    gap: 24px;
     text-align: center;
 }
 
-#mainhome button a{
+button{
+    color: none;
     text-decoration: none;
-    color: white;
-    height: 40px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(51, 51, 51, 1);
-    border-radius: 50px;
+    list-style: none;
 }
 
+.blkbtn button{
+    color: rgba(217, 217, 217, 0.92);
+    background: linear-gradient(
+    -84.36deg,
+    rgba(45, 2, 48, 0.4) 0%,
+    rgba(104, 27, 172, 1) 86.81179881095886%,
+    rgba(105, 0, 140, 1) 100%
+  );
+  border-radius: 50px;
+  width: 143.11px;
+  height: 37.26px;
+}
 
-#foot{
-    height: 30px;
-    width: 30%;
+.block{
+    width: 80%;
+    height: 1024px;
     display: flex;
-    flex-direction: row;
+    flex-direction:row ;
     flex-wrap: wrap;
-    align-content:center;
     justify-content: space-around;
-}
-footer{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 300;
-    height: 40px;
-    width: 100%; 
-    border: 1.2px solid rgb(0, 0, 0);
-    background-color: rgba(217, 217, 217, 1);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    column-gap:53%;
-}
-
-a{
-    text-decoration: none;
-}
-
-#fh h5{
     /* align-items: center; */
-    height: 30px;
-    width: 220px;
-    position: relative;
-    left: 12px;
+    position: absolute;
+    top: 280px;
+    left: 175px;
+}
 
-}
-h5{
-    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 300;
-    display: inline;
-    color: rgba(90, 25, 150, 0.97);
-}
