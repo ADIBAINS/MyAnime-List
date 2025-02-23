@@ -1,6 +1,5 @@
 html {
     scroll-behavior: smooth;
-    
 }
 
 * {
@@ -57,12 +56,12 @@ header{
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 40px;
+    gap: 3.5rem;
     list-style-type: none;
     margin: 0;
     padding: 0;
     position: absolute;
-    right: 100px;
+    right: 6.25rem;
     letter-spacing: 0.16em;
     text-transform: uppercase;
 
@@ -71,10 +70,10 @@ header{
 .logo{
     display: inline-block;
     position: absolute;
-    left: 104px;
+    left: 6.5rem;
     color: rgba(255, 255, 255, 0.92);
     font-family:"Dela Gothic One", serif;
-    font-size: 40px;
+    font-size: 3.5rem;
     font-weight:900 ;
     letter-spacing: 0.16em;
     text-transform: uppercase;
@@ -84,7 +83,7 @@ header{
     opacity: 0.6;
     color: #C2C2C2;
     font-family: "Newsreader", serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     
 }
@@ -108,7 +107,7 @@ header{
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      gap: 80px;
+      gap: 5rem;
       letter-spacing: 0.16em;
     }
 /* .hometext{
@@ -121,10 +120,10 @@ header{
 .hometitle{
     color: #D7CBCB;
     position: absolute;
-    left: 42px;
-    top: 200px;
+    left: 3.125rem;
+    top: 12.5rem;
     font-family:"Playfair Display", serif;
-    font-size: 80px;
+    font-size: 5rem;
     font-weight:900 ;
     letter-spacing: 0.16em;
     text-transform: uppercase;
@@ -207,6 +206,9 @@ header{
 }
 
 .mainhome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -220,27 +222,30 @@ header{
 }
 .heading{
     font-family:"Dela Gothic One", serif;
-    font-size: 64px;
+    font-size: 4rem;
     color: rgba(255, 255, 255, 0.96);
     text-transform: uppercase;
-    position:absolute;
-    top: 120px;
-    left: 540px;
+    text-align: center;
+    padding-bottom: 4rem;
+    padding-top: 4.35rem;
 }
 
 
 .cards{
-    width: 256px;
-    height: 368px;
+    width: 260px;
+    height: 380px;
     background: linear-gradient(
-        151.58deg,
-        rgba(67, 42, 137, 1) 0%,
-        rgba(76, 31, 115, 1) 28.251683712005615%
-      );
+    146.08deg,
+    rgba(76, 31, 115, 1) 1.362673006951809%,
+    rgba(92, 27, 142, 1) 13.598714768886566%,
+    rgba(72, 47, 161, 1) 27.69472301006317%,
+    rgba(67, 42, 137, 1) 79.39996123313904%,
+    rgba(115, 27, 183, 1) 100%
+  );
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-evenly;
       align-items: center;
       align-content: center;
       border-radius: 28px;
@@ -281,21 +286,125 @@ button{
     rgba(104, 27, 172, 1) 86.81179881095886%,
     rgba(105, 0, 140, 1) 100%
   );
-  border-radius: 50px;
-  width: 143.11px;
+  border-radius: 25px;
+  width: 104.11px;
   height: 37.26px;
+  text-transform: uppercase;
+    font-weight: 500;
 }
 
 .block{
-    width: 80%;
-    height: 1024px;
+    width: 90%;
     display: flex;
     flex-direction:row ;
     flex-wrap: wrap;
-    justify-content: space-around;
-    /* align-items: center; */
-    position: absolute;
-    top: 280px;
-    left: 175px;
+    justify-content: center;
+    gap: 3.75rem;
 }
 
+.stream{
+    width: 100%;
+    background: linear-gradient(
+        243.18deg,
+        rgba(75, 49, 160, 1) 0%,
+        rgba(52, 67, 162, 1) 33.33333432674408%,
+        rgba(67, 29, 155, 1) 66.66666865348816%,
+        rgba(74, 10, 151, 1) 100%
+      );
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      flex-wrap: wrap;
+
+}
+
+.streamheading{
+    color: rgba(255, 255, 255, 0.92);
+    font-family:"Dela Gothic One", serif;
+    font-size: 3.5rem;
+    font-weight:900 ;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 4rem;
+}
+
+.streamopt{
+    width: 100%;
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 5rem;
+}
+
+
+
+.paidstream{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.paidtitle{
+    font-family: "Roboto Flex", serif;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 2.5rem;
+    font-weight:900 ;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 4rem;
+
+}
+
+
+.paidimg{
+    width: 100%;
+    gap: 1.15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+
+}
+
+
+
+.stream img{
+    width: 320px;
+    height: 110px;
+    border-radius: 28px;
+}
+
+.freestream{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.freetitle{
+    font-family: "Roboto Flex", serif;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 2.5rem;
+    font-weight:900 ;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 4rem;
+
+}
+
+.freeimg{
+    width: 100%;
+    gap: 1.15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+
+}
