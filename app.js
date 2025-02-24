@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const targetSection = document.getElementById(targetId);
 
             if (targetSection) {
-                const offset = 100;
+                const offset = 96;
                 window.scrollTo({
                     top: targetSection.offsetTop - offset,
                     behavior: "smooth"
