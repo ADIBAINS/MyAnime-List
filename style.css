@@ -206,6 +206,7 @@ header{
 }
 
 .mainhome{
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
