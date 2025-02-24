@@ -26,10 +26,10 @@
         <nav class="navbar">
             <div class="logo">KAWAI CAT</div>
             <div class="navopt">
-                <a href="#" class="navbtn">HOME</a>
-                <a href="#" class="navbtn">MY LIST</a>
-                <a href="#" class="navbtn">STREAMING OPTIONS</a>
-                <a href="#" class="navbtn">CONTACT</a>
+                <a href="#home" class="navbtn">HOME</a>
+                <a href="#mylist" class="navbtn">MY LIST</a>
+                <a href="#streamopt" class="navbtn">STREAMING OPTIONS</a>
+                <a href="#contact" class="navbtn">CONTACT</a>
             </div>
         </nav>
     </header>
@@ -37,12 +37,12 @@
 
 
     <main class="allcontent">
-        <section class="home">
+        <section class="home" id="home">
             <div class="hometext">
                 <div class="hometitle">KAWAI CAT</div>
                 <div class="homesubtitle">The one stop solution to account your all the watched animes with more fun
                     options</div>
-                <div class="homebtn"><button type="submit"><span>here we go</span></button></div>
+                <div class="homebtn"><button type="submit"><a href="#mylist">here we go</a></button></div>
             </div>
             <div class="homeimg"><img src="./Group 4.png" alt="bg image of home page"></div>
         </section>
@@ -50,7 +50,7 @@
 
 
 
-        <section class="mainhome">
+        <section class="mainhome" id="mylist">
             <div class="heading">My list</div>
             <div class="block">
                 <div class="cards">
@@ -90,6 +90,27 @@
                 </div>
                 <div class="cards">
                     <div class="cardimg">
+                        <div class="img1"><img src="berserk.jpeg" alt="berserk"></div>
+                    </div>
+                    <div class="blktitle">BERSERK</div>
+                    <div class="blkbtn"><button>watch now</button></div>
+                </div>
+                <div class="cards">
+                    <div class="cardimg">
+                        <div class="img1"><img src="Hajime No Ippo.jpeg" alt="Ippo"></div>
+                    </div>
+                    <div class="blktitle">HAJIME NO IPPO</div>
+                    <div class="blkbtn"><button>watch now</button></div>
+                </div>
+                <div class="cards">
+                    <div class="cardimg">
+                        <div class="img1"><img src="devilman crybaby.jpeg" alt="DEVILMAN"></div>
+                    </div>
+                    <div class="blktitle">DEVILSMAN CRYBABY</div>
+                    <div class="blkbtn"><button>watch now</button></div>
+                </div>
+                <div class="cards">
+                    <div class="cardimg">
                         <div class="img1"><img src="Bleach 2.jpeg" alt="Bleach"></div>
                     </div>
                     <div class="blktitle">BLEACH</div>
@@ -104,27 +125,6 @@
                 </div>
                 <div class="cards">
                     <div class="cardimg">
-                        <div class="img1"><img src="berserk.jpeg" alt="berserk"></div>
-                    </div>
-                    <div class="blktitle">BERSERK</div>
-                    <div class="blkbtn"><button>watch now</button></div>
-                </div>
-                <div class="cards">
-                    <div class="cardimg">
-                        <div class="img1"><img src="berserk.jpeg" alt="berserk"></div>
-                    </div>
-                    <div class="blktitle">BERSERK</div>
-                    <div class="blkbtn"><button>watch now</button></div>
-                </div>
-                <div class="cards">
-                    <div class="cardimg">
-                        <div class="img1"><img src="berserk.jpeg" alt="berserk"></div>
-                    </div>
-                    <div class="blktitle">BERSERK</div>
-                    <div class="blkbtn"><button>watch now</button></div>
-                </div>
-                <div class="cards">
-                    <div class="cardimg">
                         <div class="img1"><img src="Hajime No Ippo.jpeg" alt="Ippo"></div>
                     </div>
                     <div class="blktitle">HAJIME NO IPPO</div>
@@ -132,31 +132,37 @@
                 </div>
                 <div class="cards">
                     <div class="cardimg">
-                        <div class="img1"><img src="Hajime No Ippo.jpeg" alt="Ippo"></div>
+                        <div class="img1"><img src="devilman crybaby.jpeg" alt="DEVILMAN"></div>
                     </div>
-                    <div class="blktitle">HAJIME NO IPPO</div>
+                    <div class="blktitle">DEVILSMAN CRYBABY</div>
                     <div class="blkbtn"><button>watch now</button></div>
                 </div>
             </div>
         </section>
         <section>
-            <div class="stream">
+            <div class="stream" id="streamopt">
                 <div class="streamheading">streaming options</div>
                 <div class="streamopt">
                     <div class="paidstream">
                         <div class="paidtitle">paid sites</div>
                         <div class="paidimg">
-                            <div class="netflix"><a href="https://www.netflix.com/in/"><img src="netflix.png" alt="netflix"></a></div>
-                            <div class="crunchyroll"><a href="https://www.crunchyroll.com/"><img src="crunchyroll.png" alt="crunchyroll"></a></div>
-                            <div class="jiocinema"><a href="https://www.jiocinema.com/"><img src="jiocinema.png" alt="jiocinema"></a></div>
+                            <div class="netflix"><a href="https://www.netflix.com/in/"><img src="netflix.png"
+                                        alt="netflix"></a></div>
+                            <div class="crunchyroll"><a href="https://www.crunchyroll.com/"><img src="crunchyroll.png"
+                                        alt="crunchyroll"></a></div>
+                            <div class="jiocinema"><a href="https://www.jiocinema.com/"><img src="jiocinema.png"
+                                        alt="jiocinema"></a></div>
                         </div>
                     </div>
                     <div class="freestream">
                         <div class="freetitle">free sites</div>
                         <div class="freeimg">
-                            <div class="mirjro"><a href="https://www.miruro.tv/"><img src="mirojo.jpeg" alt="mirjro"></a></div>
-                            <div class="animesuge"><a href="https://animesugetv.to/"><img src="animesugelogo.png" alt="animesuge"></a></div>
-                            <div class="hianime"><a href="https://hianime.to/"><img src="hianime.svg" alt="hianime"></a></div>
+                            <div class="mirjro"><a href="https://www.miruro.tv/"><img src="mirojo.jpeg"
+                                        alt="mirjro"></a></div>
+                            <div class="animesuge"><a href="https://animesugetv.to/"><img src="animesugelogo.png"
+                                        alt="animesuge"></a></div>
+                            <div class="hianime"><a href="https://hianime.to/"><img src="hianime.svg" alt="hianime"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -164,7 +170,7 @@
         </section>
 
         <footer>
-            <div class="contacts">
+            <div class="contacts" id="contact">
                 <div class="ft-title">kawai cat</div>
                 <div class="ft-contact-info">
                     <div class="socials">
@@ -181,8 +187,8 @@
                         <div class="contactdetails">
                             <span style="text-transform: lowercase;">adilbains.work@gmail.com</span>
                             <span>+9181300XXXXX</span>
-                            <span style="line-height: 1.75 rem;">janakpuri <br>new delhi - 110058</span>
-                            
+                            <span style="line-height: 1.75rem;">janakpuri <br>new delhi - 110058</span>
+
                         </div>
                     </div>
                 </div>
@@ -194,7 +200,7 @@
             </section>
         </footer>
     </main>
-
+    <script src="app.js"></script>
 </body>
 
 </html>
