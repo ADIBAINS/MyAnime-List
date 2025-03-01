@@ -526,9 +526,158 @@ button {
     text-transform: uppercase;
 }
 
+@media (min-width: 360px) and (max-width: 400px){
+    .logo{
+        font-size: 0.5rem;
+    }
+    .navopt a{
+        font-size: 0.25rem;
+    }
+    .navopt{
+        gap: 0.3rem;
+    }
+    .hometitle{
+        font-size: 3rem;
+    }
+    .homesubtitle{
+        font-size: 0.75rem;
+        padding: 0 3.5rem;
+    }
+    .homeimg{
+        display: none;
+    }
+    .hometext{
+        width: 85%;
+        margin: 0;
+    }
+    .homebtn{
+    width: 6.25rem;
+    height: 1.875rem;
+    }
+    .homebtn a{
+        font-size: 0.75rem;
+    }
+    .heading {
+        font-size: 2rem;
+        padding-bottom: 2.5rem;
+        padding-top: 2.75rem;
+    }
+    .cards {
+        width: 14.25rem;
+        height: 20.75rem;
+    }
+    .cardimg img {
+        width: 115.29px;
+        height: 173.22px;
+    }
+    
+    .blktitle {
+        font-size: 1rem;
+        gap: 12px;
+    }
+    
+    .blkbtn button {
+        width: 89.11px;
+        height: 23.26px;
+        font-weight: 500;
+        font-size: 0.5rem;
+    }
+    .streamheading {
+        font-size: 1rem;
+        padding: 1.5rem;
+    }
+    
+    .streamopt {
+        column-gap: 1.75rem;
+    }
+    
+    .paidtitle {
+        font-size: 0.75rem;
+        padding: 2rem;
+    
+    }
+    
+    
+    .paidimg {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    
+    }
+    
+    .stream img {
+        width: 140px;
+        height: 60px;
+    }
+    
+    .freetitle {
+        font-size: 0.75rem;
+        padding: 2rem;
+    
+    }
+    
+    .freeimg {
+        padding: 0;
+        gap: 1.15rem;
+        display: flex;flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .ft-title {
+        font-size: 1.75rem;
+    }
+    .ft-contact-info {
+        gap: 2rem;
+        justify-content: flex-start;
+    }
+    .socials {
+        gap: 1rem;
+    
+    }
+    
+    .socialtitle {
+        font-size: 0.65rem;
+    }
+    
+    .sociallinks {
+        gap: 0.4rem;
+        font-size: 0.5rem;
+    }
+    
+    .contactinfo {
+        gap: 1rem;
+    }
+    
+    .contacttitle {
+        font-size: 0.65rem;
+    }
+    
+    .contactdetails {
+        gap: 0.36rem;
+        font-size: 0.4rem;
+    }
+    .websiterightsbg {
+        margin: 1rem 0 0.125rem 0;
+        width: 40%;
+        height: 1.25rem;
+    }
+    
+    .bgrights {
+        font-size: 0.3rem;
+    }
+    
+    
+    .bgrights span {
+        font-size: 0.55rem;
+    }
+}
 
 
-@media (min-width:450px) and (max-width:850px){
+@media (min-width:401px) and (max-width:850px){
     .logo{
         font-size: 0.625rem;
     }
@@ -694,8 +843,8 @@ button {
         font-size: 4rem;
     }
     .homesubtitle{
-        font-size: 1rem;
-        padding: 0 4rem;
+        font-size: 0.75rem;
+        padding: 0 2rem;
     }
     .homeimg{
         /* display: none; */
