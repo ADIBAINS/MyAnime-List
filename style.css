@@ -528,7 +528,7 @@ button {
 
 
 
-@media (min-width:550px) and (max-width:800px){
+@media (min-width:450px) and (max-width:850px){
     .logo{
         font-size: 0.625rem;
     }
@@ -634,7 +634,7 @@ button {
     }
     .ft-contact-info {
         gap: 2rem;
-    
+        justify-content: flex-start;
     }
     .socials {
         gap: 1rem;
@@ -680,7 +680,7 @@ button {
     
 }
 
-@media (min-width:801) and (max-width:1000px){
+@media (min-width:851px) and (max-width:1000px){
     .logo{
         font-size: 1.5rem;
     }
@@ -699,8 +699,8 @@ button {
     }
     .homeimg{
         /* display: none; */
-    width: 32.5rem;
-    height: 28.75rem;
+    width: 50%;
+    height: 50%;
     }
     .hometext{
         width: 85%;
@@ -789,7 +789,7 @@ button {
     }
     .ft-contact-info {
         gap: 2rem;
-    
+        justify-content: flex-start;
     }
     .socials {
         gap: 1rem;
